@@ -24,10 +24,10 @@ public class Application implements ApplicationRunner {
 
         String tableName = "student";
         // 导入
-        // String importFilePath = "C:\\Users\\31238\\OneDrive\\デスクトップ\\test.csv";
-        // dbDataManager.batchImportData(importFilePath, tableName);
+        String importFilePath = "C:\\Users\\31238\\OneDrive\\デスクトップ\\test10000.csv";
+        dbDataManager.batchImportData(importFilePath, tableName);
         // 导出
-        String exportFilePath = "C:\\Users\\31238\\OneDrive\\デスクトップ\\test2.csv";
-        dbDataManager.batchExportData(exportFilePath, tableName);
+        // String exportFilePath = "C:\\Users\\31238\\OneDrive\\デスクトップ\\test2.csv";
+        // dbDataManager.batchExportData(exportFilePath, tableName);
     }
 }
